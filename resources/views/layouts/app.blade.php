@@ -34,7 +34,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('chat') }}">{{ __('哈拉區') }}</a>
+                            <a class="nav-link" href="{{ route('chat.index') }}">{{ __('哈拉區') }}</a>
                         </li>
                     </ul>
 

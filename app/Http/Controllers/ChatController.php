@@ -16,7 +16,7 @@ class ChatController extends Controller
     {
         //
         $posts = Post::select('Topic', 'Content')->paginate(10);
-        return view('chat.chat', ['posts' => $posts]);
+        return view('chat.index', ['posts' => $posts]);
     }
 
     /**
@@ -27,6 +27,7 @@ class ChatController extends Controller
     public function create()
     {
         //
+        return view('chat.create');
     }
 
     /**
